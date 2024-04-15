@@ -29,9 +29,9 @@
             <div class="taskSection">
                 <div class="TaskName">
                     <li>let's Write...</li>
-                    
+
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -41,7 +41,7 @@
     console.log(taskSection.nextElementSibling);
     let textbar = document.querySelector('.textbar')
     let addbtn =  document.querySelector('.addbtn')
-    
+
     addbtn.addEventListener('click',()=>{
         const inputBoxText = document.querySelector('.textbar')
         const workBox = document.querySelector('.TaskName')
@@ -50,7 +50,7 @@
     let input = inputBoxText.value
     workList.innerText = input
         workBox.appendChild(workList)
-        
+
     })
 
     let deletbtn = document.querySelector('.deletbtn')
@@ -58,7 +58,7 @@
         const Delet = document.querySelector('.TaskName')
         Delet.lastChild.remove()
     })
-    
+
 </script>
 
 </html>
