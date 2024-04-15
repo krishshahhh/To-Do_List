@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%vw;
+    height: 80px;
+    color: beige;
+    /* border: 1px solid black; */
+    box-shadow: 10px ;
+}
+
+.mainbar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.textbar{
+    font-size: 19px;
+    /* margin-left: 150px; */
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.addbtn{
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid black;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: green;
+    color: white;
+
+}
+
+.editbtn{
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid black;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(42, 147, 189);
+    color: white;
+}
+.deletbtn{
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid black;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    background-color:rgb(196, 0, 0);
+    color: white;
+}
+.fnbtn{
+    display: flex;
+    padding: 10px;
+    /* margin-right: 250px; */
+}
+/* hovver function  */
+.addbtn:hover{
+    background-color: rgb(30, 196, 30);
+    font-weight: 800;
+}
+.editbtn:hover{
+    background-color: rgb(71, 194, 243);
+    font-weight: 800;
+}
+.deletbtn:hover{
+    background-color: rgb(250, 44, 44);
+    font-weight: 800;
+}
+.TaskDelbtn:hover{
+    background-color: rgb(202, 2, 2);
+    font-weight: 900;
+}
+/* end of hover function  */
+.section{
+    display: flex;
+    justify-content:center;
+    /* margin-left: 150px; */
+}
+.template{
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(207, 207, 209);
+    width:60%;
+    /* height: 900px; */
+}
+.taskSection{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+    /* border-radius: 10px; */
+    width: 95%;
+    /* height: 800px; */
+    background-color: #fff;
+}
+.TaskName{
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-around; */
+    width: 90%;
+    height: 8%;
+    
+}
+.TaskDelbtn{
+    color: azure;
+    background-color: red;
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 13px 0px;
+    margin-right: 5px;
+    width: 70PX;
+    height: 40px;
+}
+.TaskName li{
+    border-top: 1px solid black;
+    border-bottom : 1px solid black;
+    height: 60px;
+    /* background-color: yellow; */
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-left: 20px;
+    display: flex;
+    /* justify-content:center; */
+    align-items:center;
+    text-align: center;
+    list-style:circle   ;
+}
+
+.Firstrapper{
+    width: 900px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-02{
+    gap: 5px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.A1{
+    color: orangered;
+    font-weight: 800;
+}
+.A2{
+    color: green;
+    font-weight: 800;
+}
+.A3{
+    color: rgb(16, 178, 241);
+    font-weight: 800;
+}
+.A4{
+    color: rgb(236, 20, 20);
+    font-weight: 800;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="mainbar">
+            <div class="Firstrapper">
+            <div><input type="text"   class="textbar" placeholder="     Task to br done..."></div>
+            <div class="fnbtn">
+                <div><button class="addbtn">Add</button></div>
+                <div><button class="editbtn">Edit</button></div>
+                <div><button class="deletbtn">Delet</button></div>
+            </div></div></div></div>
+    </header>
+    <section class="title">
+        <div class="title-02">
+        <span class="A1">To</span><span class="A2">-</span><span class="A3">Do</span><span class="A4">List</span>
+    </div>
+    </section>
+    <section class="section">
+        <div class="template">
+            <div class="taskSection">
+                <div class="TaskName">
+                    <li>let's Write...</li>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    let taskSection = document.querySelector('li')
+    console.log(taskSection.nextElementSibling);
+    let textbar = document.querySelector('.textbar')
+    let addbtn =  document.querySelector('.addbtn')
+    
+    addbtn.addEventListener('click',()=>{
+        const inputBoxText = document.querySelector('.textbar')
+        const workBox = document.querySelector('.TaskName')
+        const workList = document.createElement('li')
+    // console.log(workList);
+    let input = inputBoxText.value
+    workList.innerText = input
+        workBox.appendChild(workList)
+        
+    })
+
+    let deletbtn = document.querySelector('.deletbtn')
+    deletbtn.addEventListener('click',()=>{
+        const Delet = document.querySelector('.TaskName')
+        Delet.lastChild.remove()
+    })
+    
+</script>
+
+</html>
